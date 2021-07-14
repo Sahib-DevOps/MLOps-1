@@ -8,6 +8,6 @@ RUN pip3 install scikit-learn
 
 COPY first_model.sav /
 
-COPY my.py /
+COPY mycode.py /
 
-CMD python3 my.py
+CMD python3 mycode.py
